@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+hr {
+    margin: 0 100px;
+}
+
+body {
+    background-image: url('../images/depositphotos_123277816-stock-illustration-black-wood-background-wallpaper-backdrop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* HEADER */
+
+header {
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav {
+    display: flex;
+    color: #fff;
+    margin-right: 10px;
+}
+
+header .logo, header .logo p {
+    font-family: 'Audiowide', 'sans-serif';
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+header .logo p:hover {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+header .nav li, a, header  {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.nav a:hover {
+    color: rgb(255, 0, 0);
+    border-bottom: 1px solid rgb(255, 0, 0);
+}
+
+/* HOME */
+main .home {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .home .perfil {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    padding: 30px;
+}
+
+main .home .perfil img {
+    border-radius: 100%;
+    border: 2px solid rgb(255, 0, 0);
+    height: 250px;
+}
+
+main .home .perfil p {
+    padding: 30px;
+    text-align: center;
+
+}
+
+/* PORTIFOLIO */
+
+main .portifolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    margin-left: 25px;
+}
+
+main .portifolio i {
+    display: flex;
+    font-size: 36px;
+    margin: 20px;
+    padding: 0;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+main .portifolio i:hover {
+    color: rgb(255, 0, 0);
+}
+
+section .curriculo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(255, 0, 0);
+    margin: auto;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+main .curriculo a:hover {
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+
+
+/* SKILLS */
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skills i {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.skills i:hover {
+    color: red;
+}
+
+/* CONTATO */
+
+.contato {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .redes-sociais {
+    height: 20px
+}
+
+footer .redes-sociais i:hover {
+    color: red;
+}
+
+
+
